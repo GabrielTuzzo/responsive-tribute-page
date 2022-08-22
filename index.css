@@ -141,6 +141,12 @@ aside {
   text-align: center;
   }
 }
+@media screen and (max-width: 970px) {
+  footer {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
 @media screen and (max-width: 768px) {
   .first-list ul li{
     font-size: 20px;
@@ -154,65 +160,93 @@ aside {
   .first-list {
     height: 600px;
   }
+  body {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  #tribute-info {
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+  #img-div {
+    max-width: 1100px;
+    width: 95%;
+  }
 }
-@media screen and (max-width: 653px) {
+@media screen and (max-width: 691px) {
+  .first-list {
+    height: 640px;
+  }
+}
+@media screen and (max-width: 652px) {
   .first-list {
     height: 650px;
   }
 }
-@media screen and (max-width: 596px) {
+@media screen and (max-width: 632px) {
   .first-list {
     height: 680px;
   }
 }
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 522px) {
   .first-list {
     height: 700px;
   }
+}
+@media screen and (max-width: 490px) {
   #title {
     font-size: 1.6em;
   }
+  #img-caption {
+    max-width: 350px;
+  }
 }
-@media screen and (max-width: 452px) {
+@media screen and (max-width: 483px) {
   .first-list {
     height: 730px;
   }
 }
-@media screen and (max-width: 451px) {
+@media screen and (max-width: 483px) {
   .first-list {
     height: 750px;
   }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 449px) {
   .first-list {
     height: 780px;
   }
-  .subtitle {
-    font-size: 1.1rem;
-  }
 }
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 444px) {
   .first-list {
-    height: 800px;
+    height: 790px;
   }
 }
-@media screen and (max-width: 404px) {
+@media screen and (max-width: 433px) {
   .first-list {
     height: 820px;
   }
 }
-@media screen and (max-width: 399px) {
+@media screen and (max-width: 427px) {
   .first-list {
-    height: 850px;
+    height: 840px;
   }
+}
+@media screen and (max-width: 399px) {
   #title-tribute {
     font-size: 1.4rem;
   }
 }
-@media screen and (max-width: 365px) {
+@media screen and (max-width: 392px) {
+  .first-list {
+    height: 870px;
+  }
+}
+@media screen and (max-width: 376px) {
   .first-list {
     height: 880px;
   }
+}
+@media screen and (max-width: 365px) {
   #img-caption {
     font-size: 0.8rem;
   }
@@ -223,62 +257,74 @@ aside {
     font-size: 1.1rem;
   }
 }
-@media screen and (max-width: 335px) {
+
+@media screen and (max-width: 361px) {
   .first-list {
-    height: 900px;
+    height: 910px;
   }
 }
-@media screen and (max-width: 327px) {
+@media screen and (max-width: 353px) {
   .first-list {
     height: 930px;
   }
 }
-@media screen and (max-width: 313px) {
+@media screen and (max-width: 338px) {
   .first-list {
     height: 960px;
   }
 }
-@media screen and (max-width: 310px) {
+@media screen and (max-width: 335px) {
   .first-list {
     height: 980px;
   }
 }
-@media screen and (max-width: 309px) {
+@media screen and (max-width: 334px) {
   .first-list {
     height: 1000px;
   }
 }
-@media screen and (max-width: 298px) {
+@media screen and (max-width: 322px) {
   .first-list {
-    height: 1035px;
+    height: 1030px;
   }
 }
-@media screen and (max-width: 270px) {
+@media screen and (max-width: 293px) {
   .first-list {
-    height: 1055px;
+    height: 1050px;
   }
 }
-@media screen and (max-width: 268px) {
+@media screen and (max-width: 291px) {
   .first-list {
-    height: 1075px;
+    height: 1080px;
   }
 }
-@media screen and (max-width: 263px) {
+@media screen and (max-width: 286px) {
   .first-list {
-    height: 1095px;
+    height: 1090px;
+  }
+}
+@media screen and (max-width: 276px) {
+  .first-list {
+    height: 1120px;
+  }
+}
+@media screen and (max-width: 272px) {
+  .first-list {
+    height: 1140px;
+  }
+}
+@media screen and (max-width: 255px) {
+  .first-list {
+    height: 1160px;
   }
 }
 @media screen and (max-width: 253px) {
   .first-list {
-    height: 1115px;
+    height: 1190px;
   }
 }
-@media screen and (max-width: 250px) {
+@media screen and (max-width: 251px) {
   .first-list {
-    height: 1135px;
-  }
-}@media screen and (max-width: 234px) {
-  .first-list {
-    height: 1165px;
+    height: 1210px;
   }
 }
